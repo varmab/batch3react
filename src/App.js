@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome'
 import Counter from './Counter'
+import Friends from './Friends'
+import Contact from './Contact'
+import Todos from './Todos'
 
 const Greeting=(props)=>{
   return(
@@ -19,10 +22,7 @@ class App extends Component {
           <Welcome title="Ram" year={2018} password="12321321"/>
           <Welcome year={2019} password="12321321"/>
         </header>
-        <Greeting year={2020}>
-          ********
-        </Greeting>
-        <Counter/>
+        <Todos/>
       </div>
     );
   }
